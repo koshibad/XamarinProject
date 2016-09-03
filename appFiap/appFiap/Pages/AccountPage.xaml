@@ -2,5 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 		x:Class="appFiap.AccountPage" Title="Account">
 	<ContentPage.Content>
+	<StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Spacing="15">
+
+			<DatePicker x:Name="dpData" />
+			
+		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

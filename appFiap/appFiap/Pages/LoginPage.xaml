@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-		x:Class="appFiap.LoginPage" Title="Login Teste" BackgroundColor="Olive">
+		x:Class="appFiap.LoginPage" Title="Login" BackgroundColor="Olive">
 	
 	<ContentPage.Content>
 		<StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Spacing="15">
 			
-			<Entry x:Name="txtLogin" WidthRequest="300" HeightRequest="40" Placeholder="usuario" PlaceholderColor="Lime"
-				TextColor="Red" BackgroundColor="Gray" />
+			<Entry x:Name="txtLogin" WidthRequest="300" HeightRequest="40" Placeholder="user" PlaceholderColor="Lime"
+				TextColor="Red" BackgroundColor="White" />
 
-			<Entry x:Name="txtSenha" WidthRequest="300" HeightRequest="40" Placeholder="senha" PlaceholderColor="Lime"
-				TextColor="Red" BackgroundColor="Gray" IsPassword="true" />
+			<Entry x:Name="txtSenha" WidthRequest="300" HeightRequest="40" Placeholder="password" PlaceholderColor="Lime"
+				TextColor="Red" BackgroundColor="White" IsPassword="true" />
 
 			<Button x:Name="btnLogin" WidthRequest="200" HeightRequest="50" Text="Login" BackgroundColor="Maroon" TextColor="White" 
 				Clicked="Handle_Clicked"/>

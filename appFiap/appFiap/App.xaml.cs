@@ -4,11 +4,18 @@ namespace appFiap
 {
 	public partial class App : Application
 	{
+		private static NavigationPage _navigationPage;
+		public static NavigationPage NavigationPage
+		{
+			get { return _navigationPage; }
+			set { _navigationPage = value; }
+		}
+
 		public App()
 		{
 			InitializeComponent();
 
-			MainPage = new appFiapPage();
+			MainPage = new NavigationPage(new LoginPage());
 		}
 
 		protected override void OnStart()
@@ -27,4 +34,3 @@ namespace appFiap
 		}
 	}
 }
-

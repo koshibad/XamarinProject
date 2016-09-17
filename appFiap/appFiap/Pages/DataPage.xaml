@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="appFiap.DataPage" xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps">
+	<ContentPage.Content>
+
+	<StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Spacing="15">
+
+			<maps:Map x:Name="map" WidthRequest="300" HeightRequest="300" 
+				IsShowingUser="true" />
+			
+			<Label x:Name="lblLat" WidthRequest="300" HeightRequest="40" 
+				TextColor="Red" BackgroundColor="White" IsEnabled="false"/>
+
+			<Label x:Name="lblLong" WidthRequest="300" HeightRequest="40" 
+				TextColor="Red" BackgroundColor="White" IsEnabled="false"/>
+
+			<Label x:Name="lblTemp" WidthRequest="300" HeightRequest="40"
+				TextColor="Red" BackgroundColor="White" IsEnabled="false"/>
+
+			<Label x:Name="lblLoc" WidthRequest="300" HeightRequest="40" 
+				TextColor="Red" BackgroundColor="White" IsEnabled="false"/>
+
+		</StackLayout>
+		
+	</ContentPage.Content>
+</ContentPage>

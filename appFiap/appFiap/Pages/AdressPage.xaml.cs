@@ -4,6 +4,7 @@ using Newtonsoft.Json;
 using System.Net.Http;
 using Acr.UserDialogs;
 using Xamarin.Forms;
+using Plugin.Geolocator;
 
 namespace appFiap
 {

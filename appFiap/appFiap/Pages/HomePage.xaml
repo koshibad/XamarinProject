@@ -1,9 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 		x:Class="appFiap.HomePage" Title="Home">
-	<ContentPage.ToolbarItems>
+	
+	<!--<ContentPage.ToolbarItems>
 		<ToolbarItem Text="LogOut" Clicked="Handle_Clicked"/>
-	</ContentPage.ToolbarItems>
+	</ContentPage.ToolbarItems>-->
 
 	<ContentPage.Content>
 		<StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Spacing="15">
@@ -14,4 +15,5 @@
 			
 		</StackLayout>
 	</ContentPage.Content>
+	
 </ContentPage>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+		x:Class="appFiap.AdressPage" BackgroundColor="Gray">
+	<ContentPage.Content>
+
+		<StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Spacing="15">
+			
+			<Entry x:Name="txtCep" WidthRequest="300" HeightRequest="40" Placeholder="cep" PlaceholderColor="Lime"
+				TextColor="Red" BackgroundColor="White" Keyboard="Numeric"/>
+
+			<Entry x:Name="txtRua" WidthRequest="300" HeightRequest="40" Placeholder="rua" PlaceholderColor="Lime"
+				TextColor="Red" BackgroundColor="White" IsEnabled="false"/>
+
+			<Entry x:Name="txtBairro" WidthRequest="300" HeightRequest="40" Placeholder="bairro" PlaceholderColor="Lime"
+				TextColor="Red" BackgroundColor="White" IsEnabled="false"/>
+
+			<Entry x:Name="txtCidade" WidthRequest="300" HeightRequest="40" Placeholder="cidade" PlaceholderColor="Lime"
+				TextColor="Red" BackgroundColor="White" IsEnabled="false"/>
+
+			<Entry x:Name="txtEstado" WidthRequest="300" HeightRequest="40" Placeholder="estado" PlaceholderColor="Lime"
+				TextColor="Red" BackgroundColor="White" IsEnabled="false"/>
+
+			<Entry x:Name="txtTexto" WidthRequest="300" HeightRequest="40" PlaceholderColor="Lime"
+				TextColor="Red" BackgroundColor="White" />
+
+		</StackLayout>
+		
+	</ContentPage.Content>
+</ContentPage>

@@ -3,6 +3,7 @@
 		x:Class="appFiap.LoginPage" Title="Login" BackgroundColor="Olive">
 	
 	<ContentPage.Content>
+		
 		<StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" Spacing="15">
 			
 			<Entry x:Name="txtLogin" WidthRequest="300" HeightRequest="40" Placeholder="user" PlaceholderColor="Lime"
@@ -11,12 +12,20 @@
 			<Entry x:Name="txtSenha" WidthRequest="300" HeightRequest="40" Placeholder="password" PlaceholderColor="Lime"
 				TextColor="Red" BackgroundColor="White" IsPassword="true" />
 
-			<Button x:Name="btnLogin" WidthRequest="200" HeightRequest="50" Text="Login" BackgroundColor="Maroon" TextColor="White" 
-				Clicked="Handle_Clicked"/>
+			<StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand" >
+				
+				<Button x:Name="btnLogin" WidthRequest="100" HeightRequest="50" Text="Login" BackgroundColor="Maroon" TextColor="White" 
+					Clicked="Login_Clicked" />
 
-			<Button x:Name="btnSignOn" WidthRequest="200" HeightRequest="50" Text="Register" BackgroundColor="Maroon" TextColor="White" 
-				Clicked="FormSignOn_Clicked" />
+				<Button x:Name="btnSignOn" WidthRequest="100" HeightRequest="50" Text="Register" BackgroundColor="Maroon" TextColor="White" 
+					Clicked="FormSignOn_Clicked" />
+
+				<Button x:Name="btnPasswordRecovery" WidthRequest="100" HeightRequest="50" Text="I Forgot" BackgroundColor="Maroon" TextColor="White" 
+					Clicked="PasswordRecovery_Clicked" />
+
+			</StackLayout>
 			
 		</StackLayout>
+		
 	</ContentPage.Content>
 </ContentPage>

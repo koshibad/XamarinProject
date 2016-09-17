@@ -47,6 +47,12 @@
     <EmbeddedResource Include="Pages\SignOnPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Pages\PasswordPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pages\AdressPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -70,6 +76,12 @@
     </Compile>
     <Compile Include="Pages\SignOnPage.xaml.cs">
       <DependentUpon>SignOnPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PasswordPage.xaml.cs">
+      <DependentUpon>PasswordPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AdressPage.xaml.cs">
+      <DependentUpon>AdressPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
